@@ -1,0 +1,61 @@
+/*头部*/
+header{
+    position: fixed;
+    background-color: #ff9000;
+    width: 100%;
+    text-align: center;
+}
+span{
+    display: block;
+    background-image: url("img/index_logo.png");
+    background-position: center center;
+    background-size: 60% 75%;
+    background-repeat: no-repeat;
+    width: 75%;
+    height: 0.88rem;
+    margin: 0 auto;
+}
+/*主体部分*/
+section{
+    background-color: #ff9000;
+    position: absolute;
+    top: 0.88rem;
+    width: 100%;
+}
+.licai{
+    display: flex;
+}
+.licai div{
+    text-align: center;
+    font-size: 0.3rem;
+    flex: 1;
+    color: white;
+}
+.count{
+    margin-top: 0.3rem;
+    display: flex;
+}
+.count div{
+    text-align: center;
+    font-size: 0.3rem;
+    color: white;
+    flex: 1;
+    position: relative;
+    margin-bottom: 0.1rem;
+}
+.count div:first-child:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 0.02rem;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.count div p{
+    margin: 0.1rem 0 0 0;
+}
+
+
